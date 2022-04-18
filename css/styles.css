@@ -1,0 +1,62 @@
+body {
+
+}
+
+/* parallax */
+
+.parallax{
+    background-image: url("https://pbs.twimg.com/media/FQUt12HWYAINyPo?format=jpg&name=4096x4096");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* Header */
+
+#header{
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color:white;
+  padding-top: 8em;
+
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 0 0;
+  margin: auto;
+}
+
+.text-box{
+	height: 80vh;
+	width: 100vw;
+	padding: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 9px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
