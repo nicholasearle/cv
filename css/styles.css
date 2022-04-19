@@ -3,11 +3,6 @@ body {
   background-color: #3A3845;
 }
 
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-  
 /* parallax */
 .parallax {
   background-image: url("https://pbs.twimg.com/media/FQUt12HWYAINyPo?format=jpg&name=4096x4096");
