@@ -1,5 +1,5 @@
 body {
-
+text-align: center;
 }
 
 /* parallax */
@@ -26,6 +26,15 @@ body {
 
 }
 
+.colored {
+  background-color: #3A3845  ;
+  color: #F7CCAC;
+}
+
+.colored2 {
+  background-color: #F7CCAC ;
+  color: #3A3845;
+}
 /* Containers */
 
 .container-fluid {
@@ -45,6 +54,9 @@ body {
   padding-right: 1.5rem;
 }
 
+.navbar-custom  {
+  background-color: #3A3845;
+}
 .navbar-brand {
   font-size: 1.5rem;
 }
@@ -59,4 +71,9 @@ body {
 
 .nav-link {
   font-size: 1.2rem;
+}
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
 }
