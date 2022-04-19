@@ -1,51 +1,54 @@
 body {
-text-align: center;
+  text-align: center;
+  background-color: #3A3845;
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  
 /* parallax */
-
-.parallax{
-    background-image: url("https://pbs.twimg.com/media/FQUt12HWYAINyPo?format=jpg&name=4096x4096");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    height: 70vh;
-    object-fit: cover;
+.parallax {
+  background-image: url("https://pbs.twimg.com/media/FQUt12HWYAINyPo?format=jpg&name=4096x4096");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 70vh;
+  object-fit: cover;
 }
 
 /* Header */
-
-#header{
+#header {
   position: absolute;
   text-align: center;
   z-index: 1;
-  color:white;
+  color: white;
   padding-top: 8em;
-
 }
 
 .colored {
-  background-color: #3A3845  ;
+  background-color: #3A3845;
   color: #F7CCAC;
 }
 
 .colored2 {
-  background-color: #F7CCAC ;
+  background-color: #F7CCAC;
   color: #3A3845;
 }
-/* Containers */
 
+/* Containers */
 .container-fluid {
   padding: 0 0;
   margin: auto;
 }
 
-.text-box{
-	height: 80vh;
-	width: 100vw;
-	padding: 50px;
+.text-box {
+  height: 45vh;
+  width: 100vw;
+  padding: 50px;
 }
 
 /* Navigation Bar */
@@ -54,9 +57,10 @@ text-align: center;
   padding-right: 1.5rem;
 }
 
-.navbar-custom  {
+.navbar-custom {
   background-color: #3A3845;
 }
+
 .navbar-brand {
   font-size: 1.5rem;
 }
