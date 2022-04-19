@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-color: #3A3845;
   font-family: 'Montserrat', sans-serif;
+  color: #F7CCAC;
 }
 
 /* parallax */
@@ -12,8 +13,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  height: 70vh;
+  height: 600px;
   object-fit: cover;
+  opacity: .55;
+  background-color: #5e5e5e;
+  object-position: 20% 10%;
 }
 
 /* Header */
@@ -21,23 +25,19 @@ body {
   position: absolute;
   text-align: center;
   z-index: 1;
-  color: white;
-  padding-top: 8em;
+  color: #FFF;
+  padding-top: 240px;
+  height: 71.4%;
+  width: 100%;
 }
 
-.colored {
-  background-color: #3A3845;
-  color: #F7CCAC;
+#header h1 {
+  border-bottom: 2px groove #FFF;
+  display: inline-block;
 }
-
-.colored2 {
-  background-color: #F7CCAC;
-  color: #3A3845;
-}
-
 /* Containers */
 .container-fluid {
-  padding: 0 0;
+  padding: 0 1.5rem 0 1.5rem;
   margin: auto;
 }
 
@@ -71,6 +71,15 @@ body {
 
 .nav-link {
   font-size: 1.2rem;
+}
+
+/* profile */
+
+
+/* experience */
+#experience {
+  background-color: #F7CCAC;
+  color: #3A3845;
 }
 
 /* Footer */
